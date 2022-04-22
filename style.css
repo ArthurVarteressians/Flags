@@ -1,0 +1,461 @@
+.main-grid {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    background-color: #dee9f1;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1100px) {
+    .main-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .main-grid {
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .main-grid {
+        grid-template-columns: repeat(1, 2fr);
+    }
+}
+
+* {
+    font-family: 'Courier New', monospace;
+}
+
+.content {
+    font-size: 11px;
+    border: 1px solid black;
+    font-family: "Times New Roman", Times, serif;
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ===========================AUSTRIA======================= */
+
+.body-flag-aus {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.austria-flag {
+    width: 90px;
+    height: 60px;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 5px rgb(177, 176, 176);
+}
+
+.austria-inside {
+    background-color: rgb(247, 241, 241);
+    width: 100%;
+    height: 20px;
+}
+
+.austria-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/* =============================Belgium============================ */
+
+.body-flag-be {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.body-flag-bel {
+    width: 90px;
+    height: 60px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 5px rgb(177, 176, 176);
+}
+
+.bel-flag {
+    height: 60px;
+    width: 30px;
+    background: #080806;
+}
+
+.bel-inside1 {
+    height: 60px;
+    margin-left: 30px;
+    width: 30px;
+    background: #FCE93F;
+}
+
+.bel-inside2 {
+    background-color: #EB1F22;
+    height: 60px;
+    margin-left: 30px;
+    width: 30px;
+}
+
+.bel-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/* =============================Ger============================ */
+
+.body-flag-ger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.body-flagger1 {
+    width: 90px;
+    height: 60px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 5px rgb(177, 176, 176);
+}
+
+.ger-flag {
+    height: 20px;
+    margin-top: 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+.ger-inside1 {
+    background-color: rgb(255, 0, 0);
+    width: 90px;
+    height: 20px;
+}
+
+.ger-inside2 {
+    background-color: rgb(255, 116, 2);
+    width: 90px;
+    height: 20px;
+}
+
+.ger-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/* =========================================== */
+
+.body-flag-ir {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flag-ir {
+    width: 90px;
+    height: 60px;
+    background-color: #0A7A2E;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 5px rgb(177, 176, 176);
+}
+
+.inside-ir {
+    width: 30px;
+    height: 100%;
+    background-color: #ECEDEC;
+}
+
+.insde1-ir {
+    width: 30px;
+    height: 100%;
+    background-color: #F4681D;
+    margin-right: -30px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px rgb(65, 63, 63);
+}
+
+
+/* =====================Canada====================== */
+
+.body-flag-ca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.child-ca {
+    width: 90px;
+    height: 60px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgb(177, 176, 176);
+    overflow: hidden;
+    height: 60px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EB1F22;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 50px;
+    height: 100%;
+}
+
+.can-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/* =====================France====================== */
+
+.body-flag-fr {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flag-fr {
+    width: 90px;
+    height: 60px;
+    background-color: #18245A;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 5px rgb(177, 176, 176);
+}
+
+.inside-fr {
+    width: 30px;
+    height: 100%;
+    background-color: #ECEDEC;
+}
+
+.insde1-fr {
+    width: 30px;
+    height: 100%;
+    background-color: #E82329;
+    margin-right: -30px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/* ===============Jap=================== */
+
+.body-flag-jap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.child-jap {
+    width: 90px;
+    height: 60px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgb(177, 176, 176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+}
+
+.jap-flagin {
+    background-color: #A11C21;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.jap-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/* ===============Finland=================== */
+
+.body-flag-fin {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flag-fin {
+    width: 90px;
+    height: 60px;
+    background-color: #E7E7E7;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 5px rgb(177, 176, 176);
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: stretch;
+}
+
+.inside-fin {
+    transform: rotate(90deg);
+    width: 20px;
+    height: 90px;
+    background-color: #143C77;
+    margin-right: 20px;
+}
+
+.insde1-fin {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 90px;
+    background-color: #143C77;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px rgb(65, 63, 63);
+}
+
+
+/* ======================Luxembourg==================  */
+
+.body-flag-lu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.child-lu {
+    width: 90px;
+    height: 60px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 5px rgb(177, 176, 176);
+}
+
+.lux-flag {
+    height: 20px;
+    margin-top: 0px;
+    background-color: #FB8E8F;
+}
+
+.lux-inside1 {
+    background-color: #EFEFEF;
+    width: 90px;
+    height: 20px;
+}
+
+.lux-inside2 {
+    background-color: #1A7BC1;
+    height: 20px;
+}
+
+.lux-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/* =================Netherlands=======================  */
+
+.body-flag-net {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.child-net {
+    width: 90px;
+    height: 60px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 5px rgb(177, 176, 176);
+}
+
+.net-flag {
+    height: 20px;
+    margin-top: 0px;
+    background-color: #A11C21;
+}
+
+.net-inside1 {
+    background-color: #F0F0F0;
+    width: 90px;
+    height: 20px;
+}
+
+.net-inside2 {
+    background-color: #102959;
+    height: 20px;
+}
+
+.net-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
